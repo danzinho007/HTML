@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JavaScript 2</title>
+    <script>
+        function acendeLampada () {
+            alert ("Lâmpada Acendeu");
+        }
+        function passando () {
+            alert ("Clique para ascender")
+        }
+        function acesaLampada () {
+            document.getElementById("luz").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+        }
+        function acesaLampada1 () {
+            document.getElementById("luz1").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+        }
+        function apagaLampada1 () {
+            document.getElementById("luz1").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg";
+        }
+        function quebraLampada1 () {
+            document.getElementById("luz1").src = "../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-quebrada.jpg";
+        }
+    </script>
+<!-- Em Script temos : -->
+<!--function nomeDaFuncao -->
+<!--alert("msg") = vai mostrar na tela uma janela com a mensagem msg-->
+<!--Tudo que estiver em () são Parâmetros-->
+<!--Tudo que estiver em {} são Códigos-->
+</head>
+
+<body>
+    <h1>Acenda a Lâmpada</h1>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" onclick="acendeLampada()"/>
+    <br>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" onmousemove="passando()"/>
+    <br>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz" onmousemove="acesaLampada()"/>
+    <br>
+    <img src="../cursoemvideo-html5/pacote-download/projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz1" onmousemove="acesaLampada1()" onmouseout="apagaLampada1()" onclick="quebraLampada1()"/>
+</body>
+<!--onclick = Quando o usário clicar vai chamar a função acendeLampada que foi mencionado antes em script-->
+<!--onmousemove = Quando o usuário passar o mouse sobre o objeto vai disparar a função passando-->
+</html>

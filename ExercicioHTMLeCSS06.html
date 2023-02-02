@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em Linguagem JavaScript</p>
+    <pre>
+    <!--Esse comando respeita a formatação abaixo do texto-->
+        <code>
+        <!--Esse comando é pra colocar código de outras linguagens dentro do HTML-->
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f' O número {num} é PAR')
+    else:
+        print(f' O número {num} é ÍMPAR')
+    print('Fim do Programa')
+        </code>
+    </pre>
+    <!--Selecionando o código e apertando Shift + Tab = ele coloca o texto na esquerda-->
+    <!--Selecionando o código e apertando Tab = ele vai pra direita-->
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo : <q>O Computador é um burro muito rápido</q></p>
+    <!--Quando se coloca <q> está dando sentido na frase-->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff e Edel, no seu livro HTML para Leigos :</p>
+    <blockquote cite="Link do Livro">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod cum provident laboriosam ex dolore quia laudantium, ipsum et expedita, vitae dolorum similique atque fugit. Eveniet repellat laudantium porro consectetur voluptatibus.
+    </blockquote>
+    <!--O Link não irá aparecer mas vai pros mecanismos do Google-->
+    <!--Quebra de Linha e deslocamento na citação composta-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p><bdo dir="rtr">Estou aprendendo a criar coisas em CSS</bdo></p>
+    <p><bdo dir="Texto"></bdo></p>
+</body>
+</html>

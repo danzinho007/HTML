@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas 1</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café
+        <li>Escovar os dentes
+        <!--A partir da versão 5 do HMTL, o li no final ficou sendo opcional-->
+    </ol>
+    <h2>Listas Ordenadas 2</h2>
+    <ol type="I">
+     <!--
+        Em type nós temos 5 tipos : 
+        1 = padrão, número em 1, 2, 3, etc
+        A = ordem alfabética Maiúscula : A, B, C, etc
+        a = ordem alfabética minúscula : a, b, c, etc
+        I = números romanos Maiúscula : I, II, III, etc
+        i = números romanos minúscula : i, ii, iii, etc
+    -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café
+        <li>Escovar os dentes
+    </ol>
+    <h2>Listas Ordenadas 3</h2>
+    <ol type="i" start="3">
+     <!--Se eu quiser começar com o 3° elemento, coloco star ="3"
+        Isso irá aparecer : iii Acordar depois iv Ligar para o João-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café
+        <li>Escovar os dentes
+    </ol>
+    <h2>Listas não Ordenadas 1</h2>
+    <ul>
+    <!--Por padrão vai mostar marcações sendo bolinhas com fundo preto-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Listas não Ordenadas 2</h2>
+    <ul type="square">
+    <!--Aqui temos : 
+        disc = Padrão, bolinha com fundo preto
+        circle = bolinha com fundo branco
+        square = quadrado com fundo preto -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi </li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <!--Cliquem em vários e segure ALT fazendo isso poderá editar várias coisas ao mesmo tempo -->
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+           <li>Mario Bros</li>
+           <ul type="circle">
+            <li>Mario Bros 3</li>
+            <li>Mario : Lost Levels</li>
+           </ul>
+           <li>Ninja Gaiden</li> 
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Play Station</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>
