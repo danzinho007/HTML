@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio no Site</title>
+</head>
+<body>
+    <h1>Reproduzinho Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p><br>
+    <p>Áudio pra MP3, WAV e OGG </p>
+    <audio src="TheTrapezist - Quincas Moreira.mp3" controls></audio>
+    <!--autoplay = inicia a música automaticante -->
+    <!--loop = quando terminar começa novamente-->
+
+    <audio preload="auto" controls> 
+        <source src="EmotionalMess-Amy Lynn & the Honey Men.mp3" type="audio/mpeg">
+    </audio>
+    <!--preload = "auto" Só vai considerar o que o site carregou depois que carregar tudo-->
+    <!--preload = "data" Carrega só a data e algumas informações-->
+    <!--preload = "none" Só vai carregar se o usuário clicar-->
+    <!--Se fosse .ogg seria audio/ogg-->
+    <!--Se fosse .wav seria audio/wav-->
+</body>
+</html>
