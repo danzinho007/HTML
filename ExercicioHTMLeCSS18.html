@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <h2>Formatos que funcionam </h2>
+    <p>Todos testados no Chrome</p>
+    <ul>
+        <li>avi = Nem aparece</li>
+        <li>ogg = Não carrega</li>
+        <li>ogv = OK </li>
+        <li>m4v = OK</li>
+        <li>mp4 = OK</li>
+        <li>webm = OK</li>
+    </ul>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video witdh="100"controls>
+        <source src="pexels-shvets-production-8376410.mp4" type="video/mp4">
+        <source src="pexels.avi.avi" type="video/avi">
+        <source src="pexels.ogg.Ogg" type="video/ogg">
+    </video>
+<!--    <video src="pexels.avi.avi" width="100" controls></video>-->
+<!--    <video src="pexels.ogg.Ogg" width="100" controls></video>-->
+<!-- Use vários tipos de vídeo, pois se um não carregar o próxima vai-->
+<!-- Se for m4v é video/mp -->
+<!-- Se for webm é video/webm-->
+<!-- Se for ogv é video/ogg-->
+<!-- Se quiser pode colocar uma capa, basta digitar : poster="NomeDoAquivo.png"-->
+</body>
+</html>
