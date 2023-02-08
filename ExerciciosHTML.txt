@@ -1,0 +1,26 @@
+Exercício 
+
+01 : Teste de Imagens
+Adicionar Imagem no site
+
+02 : Hierarquia de Títulos
+h1 até h6
+
+03: HTML5 Obsolete Tags
+
+04: Formtação de Textos
+Negrito, Itálico, Marcado, Deletado
+
+05: Tags HTML
+Falta terminar
+
+06: Formatações
+Código-Fonte, Código
+
+07: Listas
+Ordenadas, Não Ordenadas
+
+08: Listas
+Lista dentro de lista, Definições
+
+09: Links Externos
