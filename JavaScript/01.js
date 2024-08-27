@@ -17,6 +17,8 @@ var idade3 = prompt ("Qual é a sua idade ?");
 alert("Mentira, seu nome é " + nome2 + " e sua idade é " + idade2)
 alert("Seja bem-vindo(a)")
 
+let nome4 = prompt("Qual é o seu nome ?")
+
 // let nome1 = "Daniel Rocha"
 // let idade1 = "37"
 // console.log("Seu nome é :" + nome1 + "e sua idade é" + idade1)
